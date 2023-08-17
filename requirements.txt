@@ -1,6 +1,7 @@
 datasets>=1.17.0
 torch>=1.4.0
 tqdm
+trl
 transformers
 accelerate
 peft>=0.3.0
