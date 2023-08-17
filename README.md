@@ -7,7 +7,7 @@ This repo contains three parts for the onboarding part of [Kokomind project](htt
 1. [Requirements](#requirements)
 2. [Run through RLHF](#Run-through-RLHF)    
 3. [Finetuning llama2-based paraphrase model with peft ](#Finetuning-llama2)
-4. [automatic_prompt_engineer](#automatic_prompt_engineer)
+4. [automatic prompt engineer](#automatic_prompt_engineer)
 5. [Ghost Attention in llama2](#Ghost-Attention-in-llama2)
 6. [Contact](#contact)
 
@@ -51,18 +51,54 @@ pip install -e .
 ## Finetuning llama2-based paraphrase model with peft 
 
 [Source code](https://github.com/huggingface/trl) 
-using command:
+
+You can fine-tune llama2-based model using command:
 ```
 cd scripts/peft
 python llama_peft.py \
-    --model_name meta-llama/Llama-2-7b-hf \
-    --dataset_name timdettmers/openassistant-guanaco \
+    --model_name $MODEL \
+    --dataset_name $DATASET \
     --load_in_4bit \
     --use_peft \
     --batch_size 4 \
     --gradient_accumulation_steps 2
 ```
 
+For example:
+```
+python llama_peft.py \
+    --model_name meta-llama/Llama-2-7b-hf \
+    --dataset_name humarin/chatgpt-paraphrases \
+    --load_in_4bit \
+    --use_peft \
+    --batch_size 4 \
+    --gradient_accumulation_steps 2
+```
+## Automatic Prompt Engineer
+
+APE is a system for automatic instruction generation and selection
+
+<p align="center">
+  <img src="img/animation.gif" width="70%" height="70%">
+</p>
+
+[Source code](https://github.com/keirp/automatic_prompt_engineer) 
+
+You can reproduce the results of Chat-gpt using command:
+```
+python experiments/run_instruction_induction.py --task=antonyms
+python experiments/run_truthful_qa.py
+```
+
+## Ghost Attention in llama2(implementing)
+
+Ghost Attention is a method to help the attention focus in a multi-stage process.
+
+<p align="center">
+  <img src="img/animation.gif" width="70%" height="70%">
+</p>
+
+### Still working on codes
 
 ## Contact
 
