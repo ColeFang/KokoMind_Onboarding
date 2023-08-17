@@ -1,6 +1,6 @@
 # KokoMind_Onboarding
 
-This repo contains three parts for the on boarding part of"[Kokomind project](https://chats-lab.github.io/KokoMind/)".
+This repo contains three parts for the onboarding part of"[Kokomind project](https://chats-lab.github.io/KokoMind/)".
 
 ## Content
 
@@ -20,8 +20,4 @@ pip3 install -r requirements.txt --user
 
 ## Contact
 
-Please leave Github issues or contact Hongchao Fang `fang.hong@northeastern.edu` for any questions.
-
-<p align="center">
-  <img src="img/affiliation.jpeg" width="60%" height="60%">
-</p>
+Please leave Github issues or contact Hongchao Fang at `fang.hong@northeastern.edu` for any questions.
