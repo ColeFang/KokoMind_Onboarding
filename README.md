@@ -20,7 +20,8 @@ pip3 install -r requirements.txt --user
 ```
 
 ## Run through RLHF
-### [Source code](https://github.com/CarperAI/trlx) 
+
+[Source code](https://github.com/CarperAI/trlx) 
 
 The process of RLHF can be separated in three parts:
 <p align="center">
@@ -49,7 +50,7 @@ pip install -e .
 ```
 ## Finetuning llama2-based paraphrase model with peft 
 
-### [Source code](https://github.com/huggingface/trl) 
+[Source code](https://github.com/huggingface/trl) 
 using command:
 ```
 cd scripts/peft
