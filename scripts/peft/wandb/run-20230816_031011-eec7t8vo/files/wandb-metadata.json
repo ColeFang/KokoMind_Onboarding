@@ -1,0 +1,61 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.10.12",
+    "heartbeatAt": "2023-08-16T10:10:12.694782",
+    "startedAt": "2023-08-16T10:10:11.725728",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--model_name",
+        "meta-llama/Llama-2-7b-hf",
+        "--dataset_name",
+        "timdettmers/openassistant-guanaco",
+        "--load_in_8bit",
+        "--use_peft",
+        "--batch_size",
+        "1",
+        "--gradient_accumulation_steps",
+        "2"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\hongchao\\PycharmProjects\\KokoMind_Onboarding\\scripts\\llama_peft.py",
+    "codePath": "scripts\\llama_peft.py",
+    "git": {
+        "remote": "https://github.com/ColeFang/KokoMind_Onboarding.git",
+        "commit": "6192e35ee6582d8b651d63f26bef696a883e9548"
+    },
+    "email": "18811019917@163.com",
+    "root": "C:/Users/hongchao/PycharmProjects/KokoMind_Onboarding",
+    "host": "DESKTOP-3R44KB0",
+    "username": "hongchao",
+    "executable": "C:\\Users\\hongchao\\anaconda3\\envs\\llama\\python.exe",
+    "cpu_count": 12,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 3600.0,
+        "min": 0.0,
+        "max": 3600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3600.0,
+            "min": 0.0,
+            "max": 3600.0
+        }
+    ],
+    "disk": {
+        "total": 1862.3046836853027,
+        "used": 1059.0786170959473
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        }
+    ],
+    "memory": {
+        "total": 31.747482299804688
+    }
+}

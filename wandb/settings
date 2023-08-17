@@ -1,0 +1,5 @@
+[default]
+entity = colefang-hongchao
+project = kokomind
+base_url = https://api.wandb.ai
+
