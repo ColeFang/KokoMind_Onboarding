@@ -5,12 +5,11 @@ This repo contains three parts for the onboarding part of"[Kokomind project](htt
 ## Content
 
 1. [Requirements](#requirements)
-2. [Run through RLHF](#closed-set-experiments)    
-3. [Finetuning  llama2-based paraphrase model with peft ](#open-set-experiments)
-4. [automatic_prompt_engineer]
-5. [Ghost Attention in llama2]https://arxiv.org/pdf/2307.09288.pdf 
-6. [License](#license)
-7. [Contact](#contact)
+2. [Run through RLHF](#Run through RLHF)    
+3. [Finetuning llama2-based paraphrase model with peft ](#Finetuning llama2)
+4. [automatic_prompt_engineer](#automatic_prompt_engineer)
+5. [Ghost Attention in llama2](#Ghost Attention in llama2)
+6. [Contact](#contact)
 
 ## Requirements
 
