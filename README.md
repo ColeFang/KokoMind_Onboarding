@@ -5,11 +5,12 @@ This repo contains three parts for the onboarding part of [Kokomind project](htt
 ## Content
 
 1. [Requirements](#requirements)
-2. [Run through RLHF](#Run-through-RLHF)    
-3. [Finetuning llama2-based paraphrase model with peft ](#Finetuning-llama2)
-4. [automatic prompt engineer](#automatic_prompt_engineer)
-5. [Ghost Attention in llama2](#Ghost-Attention-in-llama2)
-6. [Contact](#contact)
+2. [Download Data](#download-data)
+3. [Run through RLHF](#Run-through-RLHF)    
+4. [Finetuning llama2-based paraphrase model with peft](#Finetuning-llama2)
+5. [automatic prompt engineer](#automatic_prompt_engineer)
+6. [Ghost Attention in llama2](#Ghost-Attention-in-llama2)
+7. [Contact](#contact)
 
 ## Requirements
 
@@ -18,7 +19,7 @@ conda create -n llama python=3.10.12
 conda activate llama
 pip3 install -r requirements.txt --user
 ```
-
+## download data
 ## Run through RLHF
 
 [Source code](https://github.com/CarperAI/trlx) 
