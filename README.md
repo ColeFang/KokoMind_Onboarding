@@ -25,7 +25,7 @@ pip3 install -r requirements.txt --user
 
 The process of RLHF can be separated in three parts:
 <p align="center">
-  <img src="img/animation.gif" width="70%" height="70%">
+  <img src="img/RLHF.png" width="70%" height="70%">
 </p>
 
 1. install trxl with command:
@@ -79,7 +79,7 @@ python llama_peft.py \
 APE is a system for automatic instruction generation and selection
 
 <p align="center">
-  <img src="img/animation.gif" width="70%" height="70%">
+  <img src="img/APE.png" width="70%" height="70%">
 </p>
 
 [Source code](https://github.com/keirp/automatic_prompt_engineer) 
@@ -95,7 +95,7 @@ python experiments/run_truthful_qa.py
 Ghost Attention is a method to help the attention focus in a multi-stage process.
 
 <p align="center">
-  <img src="img/animation.gif" width="70%" height="70%">
+  <img src="img/Gatt.png" width="70%" height="70%">
 </p>
 
 ### Still working on codes
