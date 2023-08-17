@@ -8,7 +8,7 @@ This repo contains three parts for the onboarding part of [Kokomind project](htt
 2. [Download Data](#download-data)
 3. [Run through RLHF](#run-through-RLHF)    
 4. [Finetuning llama2-based paraphrase model with peft](#finetuning-llama2)
-5. [Automatic prompt engineer](#automatic_prompt_engineer)
+5. [Automatic prompt engineer](#automatic-prompt-engineer)
 6. [Ghost Attention in llama2](#ghost-attention-in-llama2)
 7. [Contact](#contact)
 
