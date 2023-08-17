@@ -90,7 +90,7 @@ python experiments/run_instruction_induction.py --task=antonyms
 python experiments/run_truthful_qa.py
 ```
 
-## Ghost Attention in llama2(implementing)
+## Ghost Attention in llama2
 
 Ghost Attention is a method to help the attention focus in a multi-stage process.
 
